@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.brand {
+    width: 100%;
+    background: #202c45;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
+.brand  h1 {
+    margin: 0;
+    padding: 15px 20px;
+    float: left;
+
+}
+
+.brand h1 a {
+    color: gray;
+    text-decoration: none;
+}
+
+.brand clear {
+    clear: both;
+}
+.brand  ul{
+    margin:0;
+    padding:0;
+    float:right;
+}
+.brand  ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 30px;
+    transition: 0.5s;
+}
+
+.brand  ul li a {
+    color:black;
+    text-decoration: none;
+}
+
+.brand ul li:hover {
+    background: #f2184f;
+}
+
+
+.card {
+    
+    float: left;
+    border-radius: 10px;
+    width: 30%;
+    margin: 20px 15px;
+    padding: 15px;
+}
+.card h1{
+    text-align:left;
+    font-style: bold; 
+    color:black;
+    font-size:xx-large;
+}
+.card p {
+    text-align: justify;
+    font-size: 15px;
+    line-height: 28px;
+    margin: 15px 10px;
+    
+    font-style: italic;
+}
+.card img{
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 15px;
+}
+.card icon{
+    display: inline-block;
+}
+
+
